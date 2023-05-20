@@ -26,7 +26,7 @@ Redux toolkit is used to mainly to used for the following:
 * Axios is used to upload post and get data from MongoDB.
 
 ## Stripe
-* Stripe is used to manage the payment from the customer. The values from the payment could be retrived and stored in MongoDB(not done as of yet).
+* Stripe is used to manage the payment from the customer. The values from the payment could be retrived and stored in MongoDB(not done as of yet). You can use 4242 4242 4242 4242 for the successful payment and be directed to the success payment page.
 
 ## Responsive Mobile CSS
 The CSS is modified for mobile users with screen width  lesser than 380px.(Source:Client/src/responsive.js)
@@ -57,3 +57,6 @@ The CSS is modified for mobile users with screen width  lesser than 380px.(Sourc
 * User password is encrypted using crypto-js and store in MongoDB to protect user password.
 * process.env is used to store sensitive data such at Stripe Key, MongoDB URL, JWT Secret Key and CryptoJS Key.
 * userRequest require a accesstoken given by JWT(used in payment).
+
+
+Feel free to contact me at mohd.firhat@hotmail.com for enquiries on the project.
